@@ -9,7 +9,7 @@ namespace Encapsulation.Models
     {
         private string _Name;
         private string _Genre;
-        private Singer _Singer;
+        public Singer _Singer { get; set; }
         private int[] Ratings = new int[0];
         public string Genre
         {
